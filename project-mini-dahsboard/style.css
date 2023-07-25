@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#ul-nav{
+display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 119px;
+    gap: 45px;
+
+    position: absolute;
+    width: 1280px;
+    height: 56px;
+    left: 0px;
+    top: 0px;
+
+    background-color: #FFFFFF;
+}
+
+li{
+    
+    display: inline-block;
+}
+
+#logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+
+    width: 142px;
+    height: 56px;
+
+}
+
+#startnow{
+        width: 122px;
+        height: 47px;
+    
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 47px;
+        display: flex;
+        align-items: flex-end;
+        text-align: center;
+        margin-left: -200px;
+    
+        color: #2A4648;
+}
+
+#destination{
+        width: 81px;
+        height: 20px;
+    
+        /* Body Text */
+    
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 20px;
+        letter-spacing: -0.0041em;
+        
+    
+        /* ijo */
+    
+        color: #2A4648;
+
+}
+
+#experience{
+        width: 79px;
+        height: 20px;
+    
+        /* Body Text */
+    
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 20px;
+        letter-spacing: -0.0041em;
+        margin-left: -200px;
+    
+        /* ijo */
+    
+        color: #2A4648;
+}
+
+#aboutus{
+        width: 67px;
+        height: 20px;
+    
+        /* Body Text */
+    
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 20px;
+        letter-spacing: -0.0041em;
+        margin-left: -200px;
+    
+        /* ijo */
+    
+        color: #2A4648;
+
+}
+
+#offers{
+    width: 44px;
+        height: 20px;
+    
+        /* Body Text */
+    
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 20px;
+        letter-spacing: -0.0041em;
+        margin-left: -200px;
+    
+        /* ijo */
+    
+        color: #2A4648;
+}
+
+#wistlist{
+        width: 52px;
+        height: 20px;
+    
+        /* Body Text */
+    
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 20px;
+        letter-spacing: -0.0041em;
+        margin-left: -200px;
+    
+        /* ijo */
+    
+        color: #2A4648;
+
+}
+
+#search{
+        box-sizing: border-box;
+    
+        /* Auto layout */
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-left: 40px;
+        gap: 8px;
+        font-size: medium;
+
+    
+        width: 120px;
+        height: 32px;
+    
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        border-radius: 99px;
+        margin-right: -100px;
+
+        margin-bottom: -23px;
+        
+        
+}
+
+#vector{
+        width: 16px;
+        height: 16px;
+        padding-left: 10px;
+
+}
+
+#menu{
+        left: 12.5%;
+        right: 12.5%;
+        top: 25%;
+        bottom: 25%;
+        margin-right: -100px;
+}
+
+#title{
+        display: flex;
+        position: absolute;
+        width: 754px;
+        height: 54px;
+        left: calc(50% - 754px/2);
+        top: calc(50% - 54px/2 + 117px);
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 42px;
+        line-height: 59px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-top: 100px;
+        margin-left: 75px;
+    
+        color: #F8F8F8;
+}
+
+#gambar{
+        position: absolute;
+        width: 100%;
+        left: 0px;
+        top: -97px;
+        margin-top: 153px;
+}
+
+#button{
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 12px 24px;
+        gap: 10px;
+    
+        position: absolute;
+        width: 140px;
+        height: 60px;
+        left: calc(50% - 140px/2);
+        top: 689px;
+        margin-left: -18px;
+
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        text-align: center;
+    
+        /* ijo */
+        color: #FFFFFF;
+        background: #2A4648;
+        box-shadow: 4px 4px 0px #FFFFFF;
+        transition: 0.5s;
+}
+
+#button:hover{
+    background-color: darkgreen;
+}
